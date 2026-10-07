@@ -30,33 +30,32 @@ Explanation: The largest element of the array is 10 and the second largest eleme
 
 ## Solution
 
-**Language:** c(gcc5.4)  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T17:52:00.441Z  
+**Submitted:** 2026-10-07T18:25:41.817Z  
 
-```c(gcc5.4)
-int getSecondLargest(int *arr, int n) {
-    // code here
-    int l=arr[0];
-    for(int i=0;i<n;i++){
-        if(arr[i]>l){
-            l=arr[i];
+```cpp
+class Solution {
+  public:
+    int getSecondLargest(vector<int> &arr) {
+        // code here
+        int n=arr.size();
+        int l=arr[0];
+        for(int i=0;i<n;i++){
+            if(arr[i]>l){
+                l=arr[i];
+            }
         }
-        
+        int s=-1;
+        for(int i=0;i<n;i++){
+            if(arr[i]>s&&arr[i]!=l){
+                s=arr[i];
+            }
     }
-    int s=-1;
-    for(int i=0;i<n;i++){
-        if(arr[i]>s&&arr[i]!=l){
-            s=arr[i];
-            
-        }
-        
+        return s;
     }
-    return s;
-    
-}
-
+};
 ```
 
 ---
