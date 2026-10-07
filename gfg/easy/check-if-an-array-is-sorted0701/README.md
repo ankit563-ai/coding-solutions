@@ -25,14 +25,14 @@ Explanation: The given array is not sorted.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T18:32:00.722Z  
+**Submitted:** 2026-10-07T18:32:43.227Z  
 
 ```cpp
 class Solution {
   public:
     bool isSorted(vector<int>& arr) {
         // code here
-        for(int i=1;i<arr.size()-1;i++){
+        for(int i=1;i<arr.size();i++){
             if(arr[i]>=arr[i-1]){
                
             }
