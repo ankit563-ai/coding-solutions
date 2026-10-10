@@ -63,8 +63,8 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 **Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 22.7 MB (beats 51.66%)  
-**Submitted:** 2026-10-07T20:52:05.740Z  
+**Memory:** 22.5 MB (beats 80.00%)  
+**Submitted:** 2026-10-10T05:09:02.038Z  
 
 ```cpp
 class Solution {
@@ -76,7 +76,6 @@ public:
                 nums[i+1]=nums[j];
                 i++;
             }
-
         }
         return i+1;
     }
