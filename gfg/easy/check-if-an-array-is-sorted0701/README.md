@@ -25,22 +25,21 @@ Explanation: The given array is not sorted.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T18:32:43.227Z  
+**Submitted:** 2026-10-10T05:00:24.594Z  
 
 ```cpp
 class Solution {
   public:
     bool isSorted(vector<int>& arr) {
-        // code here
-        for(int i=1;i<arr.size();i++){
-            if(arr[i]>=arr[i-1]){
-               
-            }
-            else
-            return false;
-            
-        }
-        return true;
+      for(int i=1;i<arr.size();i++){
+          if(arr[i]>=arr[i-1]){
+              
+          }
+          else{
+              return false;
+          }
+      }
+      return true;
     }
 };
 ```
