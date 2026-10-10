@@ -7,14 +7,17 @@ class Solution {
         for(int i=0;i<n;i++){
             if(arr[i]>l){
                 l=arr[i];
+                
             }
         }
         int s=-1;
         for(int i=0;i<n;i++){
             if(arr[i]>s&&arr[i]!=l){
                 s=arr[i];
+                
             }
-    }
+        }
         return s;
+        
     }
 };
