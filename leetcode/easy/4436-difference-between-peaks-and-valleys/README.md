@@ -68,9 +68,9 @@ Return an integer denoting the  **difference**  between the sum of all peak valu
 ## Solution
 
 **Language:** C++  
-**Runtime:** 3 ms  
-**Memory:** 31.4 MB (beats 85.71%)  
-**Submitted:** 2026-10-24T15:36:27.678Z  
+**Runtime:** 1 ms  
+**Memory:** 31.3 MB (beats 85.71%)  
+**Submitted:** 2026-10-24T15:36:37.431Z  
 
 ```cpp
 class Solution {
