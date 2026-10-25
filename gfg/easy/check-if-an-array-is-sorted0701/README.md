@@ -25,7 +25,7 @@ Explanation: The given array is not sorted.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T05:00:24.594Z  
+**Submitted:** 2026-10-25T17:59:52.625Z  
 
 ```cpp
 class Solution {
@@ -35,7 +35,7 @@ class Solution {
           if(arr[i]>=arr[i-1]){
               
           }
-          else{
+          else {
               return false;
           }
       }
