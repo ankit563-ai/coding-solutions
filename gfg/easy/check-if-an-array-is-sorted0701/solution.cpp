@@ -5,7 +5,7 @@ class Solution {
           if(arr[i]>=arr[i-1]){
               
           }
-          else{
+          else {
               return false;
           }
       }
