@@ -25,7 +25,7 @@ Explanation: Only element is 1 which is smallest, so there is no second smallest
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T18:17:24.785Z  
+**Submitted:** 2026-10-25T17:10:43.199Z  
 
 ```cpp
 class Solution {
