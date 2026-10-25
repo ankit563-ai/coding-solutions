@@ -7,7 +7,9 @@ class Solution {
         for(int i=0;i<n;i++){
             if(arr[i]>l){
                 l=arr[i];
+                
             }
+            
         }
         return l;
     }
