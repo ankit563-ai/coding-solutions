@@ -31,7 +31,7 @@ Explanation: There is only one element which is the largest.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T04:30:25.573Z  
+**Submitted:** 2026-10-25T17:02:51.451Z  
 
 ```cpp
 class Solution {
@@ -43,7 +43,9 @@ class Solution {
         for(int i=0;i<n;i++){
             if(arr[i]>l){
                 l=arr[i];
+                
             }
+            
         }
         return l;
     }
