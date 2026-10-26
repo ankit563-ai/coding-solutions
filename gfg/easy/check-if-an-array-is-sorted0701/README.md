@@ -25,7 +25,7 @@ Explanation: The given array is not sorted.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-26T07:06:42.867Z  
+**Submitted:** 2026-10-26T07:09:16.226Z  
 
 ```cpp
 class Solution {
@@ -38,6 +38,7 @@ class Solution {
           else{
               return false;
           }
+          
       }
       return true;
     }
