@@ -33,7 +33,7 @@ Explanation: The largest element of the array is 10 and the second largest eleme
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-10T04:53:00.724Z  
+**Submitted:** 2026-10-26T07:17:23.409Z  
 
 ```cpp
 class Solution {
