@@ -25,19 +25,22 @@ Explanation: The number of digits in 99999 is 5.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-27T13:36:25.338Z  
+**Submitted:** 2026-10-27T13:39:33.437Z  
 
 ```cpp
 class Solution {
   public:
     int countDigits(int n) {
         // Code here
-    
     if(n==0){
         return 1;
     }
-    int c=(int)(log10(n)+1);
-   return c;
+    int c=0;
+    while(n>0){
+        c++;
+        n=n/10;
+    }
+    return c;
         
     }
     
