@@ -58,9 +58,9 @@ The sum of `nums[0]` and `nums[1]` is `3 + 3 = 6`, which equals the target. Ther
 ## Solution
 
 **Language:** C++  
-**Runtime:** 3 ms (beats 66.15%)  
-**Memory:** 14.8 MB (beats 44.30%)  
-**Submitted:** 2026-10-26T06:56:21.994Z  
+**Runtime:** 1 ms (beats 80.70%)  
+**Memory:** 15 MB (beats 28.14%)  
+**Submitted:** 2026-10-27T19:05:15.276Z  
 
 ```cpp
 class Solution {
@@ -72,6 +72,8 @@ public:
             if(mp.find(n)!=mp.end()){
                 return {mp[n],i};
             }
+            
+            
             mp[nums[i]]=i;
         }
         return {};
