@@ -7,6 +7,8 @@ public:
             if(mp.find(n)!=mp.end()){
                 return {mp[n],i};
             }
+            
+            
             mp[nums[i]]=i;
         }
         return {};
