@@ -58,9 +58,9 @@ The sum of `nums[0]` and `nums[1]` is `3 + 3 = 6`, which equals the target. Ther
 ## Solution
 
 **Language:** C++  
-**Runtime:** 1 ms (beats 80.70%)  
-**Memory:** 15 MB (beats 28.14%)  
-**Submitted:** 2026-10-27T19:05:15.276Z  
+**Runtime:** 1 ms (beats 81.29%)  
+**Memory:** 15 MB (beats 12.40%)  
+**Submitted:** 2026-10-29T19:13:53.765Z  
 
 ```cpp
 class Solution {
